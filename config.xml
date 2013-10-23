@@ -19,7 +19,7 @@
     <gap:platform name="android" />
     <gap:platform name="blackberry" />
 
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="2.9.0" />
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="true" />
     
@@ -41,8 +41,8 @@
         <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
     
         <!-- blackberry icons -->
-        <icon src="icons/bb/icon.png" gap:platform="blackberry" />
-        <icon src="icons/bb/icon_hover.png" gap:platform="blackberry" gap:state="hover"/>
+        <icon src="icons/blackberry10/icon.png" gap:platform="blackberry" />
+        <icon src="icons/blackberry10/icon_hover.png" gap:platform="blackberry" gap:state="hover"/>
 
     <!-- splash screens -->
 
@@ -67,5 +67,5 @@
         <gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
        
         <!-- blackberry splash screen -->
-        <gap:splash src="splash/bb/splash.png" gap:platform="blackberry" />
+        <gap:splash src="splash/blackberry10/splash.png" gap:platform="blackberry" />
 </widget>
